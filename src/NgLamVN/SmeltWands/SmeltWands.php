@@ -47,7 +47,6 @@ class SmeltWands extends PluginBase implements Listener
         {
             $sender->sendMessage($player->getName()."'s inventory is full");
             return true;
-            if ($player instanceof )
         }
         $player->getInventory()->addItem($item);
         return true;
