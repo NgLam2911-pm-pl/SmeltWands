@@ -192,7 +192,7 @@ class SmeltWands extends PluginBase implements Listener
                         $inv->removeItem($item);
                         $inv->addItem($smelt);
                     case Item::CLAY:
-                        $smelt = Item::get(Item::BRICK, 0, $item->getCount() * 3);
+                        $smelt = Item::get(Item::BRICK, 0, $item->getCount());
                         $inv->removeItem($item);
                         $inv->addItem($smelt);
                 }
