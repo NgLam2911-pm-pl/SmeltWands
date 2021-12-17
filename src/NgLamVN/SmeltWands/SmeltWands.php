@@ -75,7 +75,7 @@ class SmeltWands extends PluginBase implements Listener
             {
                 switch ($item->getId())
                 {
-                    //TODO: VANILLA SMELT RECIPE
+                    //TODO: VANILLA SMELT RECIPE INSTEAD OF CASE WHOLE OF ITEMS.
                     case 4:
                         $smelt = Item::get(Item::STONE, 0, $item->getCount());
                         $inv->removeItem($item);
